@@ -1,0 +1,11 @@
+use classicmodels;
+insert into customers (customernumber, customername, city) values ('1000', 'Dongho', '서울');
+insert into products (productcode, productname, buyprice) values ('S01', 'toy car', '20.00');
+insert into employees (employeenumber, firstname, lastname) values ('123', 'alice', 'johnson');
+insert into offices (officecode, city, phone) values ('8', 'san francisco', '123-456-789');
+insert into orders (ordernumber, orderdate) values ('1', '2024-09-30');
+insert into orderdetails (ordernumber, productcode, priceeach) values ('10202', 'S24_2022', '36.74');
+insert into payments (customernumber, checknumber, amount, paymentdate) values ('496', 'MN89925', '12345.00', '2024-09-30');
+insert into productlines (productline) values ('toy cars');
+insert into customers (customernumber, customername, city) values ('1001', 'Jane Smith', '부산');
+insert into products (productcode, productname, buyprice) values ('S02', 'mini car', '21.00');

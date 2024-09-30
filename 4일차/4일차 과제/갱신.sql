@@ -1,0 +1,10 @@
+UPDATE customers set city = '456 Updated St' WHERE customernumber = 1;
+UPDATE products SET buyprice = 29.99 WHERE productcode = 1;
+UPDATE employees SET jobTitle = 'Manager' WHERE employeenumber = 1;
+UPDATE offices SET phone = '123-456-7891' WHERE officecode = 1;
+UPDATE orders SET status = 'Shipped' WHERE ordernumber = 1;
+UPDATE orderdetails SET quantityOrdered = 3 WHERE ordernumber = 1 AND productcode = 1;
+UPDATE payments SET amount = 250.00 WHERE customernumber = 1 AND paymentDate = '2023-01-01';
+UPDATE productlines SET textDescription = 'Updated description' WHERE productLine = 'Classic Cars';
+UPDATE customers SET email = 'john_updated@email.com' WHERE customernumber = 1;
+UPDATE products SET price = price * 1.1;

@@ -1,0 +1,10 @@
+DELETE FROM customers WHERE customernumber = 1;
+DELETE FROM products WHERE productcode = 1;
+DELETE FROM employees WHERE employeenumber = 1;
+DELETE FROM offices WHERE officecode = 1;
+DELETE FROM orders WHERE ordernumber = 1;
+DELETE FROM orderdetails WHERE ordernumber = 1;
+DELETE FROM payments WHERE customernumber = 1;
+DELETE FROM productlines WHERE productLine = 'Classic Cars';
+DELETE FROM customers WHERE city = 'San Francisco';
+DELETE FROM products WHERE productLine = 'Classic Cars';

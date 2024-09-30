@@ -1,0 +1,10 @@
+select * from customers; 
+SELECT productname, buyprice FROM products;
+SELECT firstName, lastName, jobTitle FROM employees;
+SELECT city, address, phone FROM offices;
+SELECT * FROM orders ORDER BY orderDate DESC LIMIT 10;
+SELECT * FROM orderdetails WHERE ordernumber = 1;
+SELECT * FROM payments WHERE customernumber = 1;
+SELECT productLine, textDescription FROM productlines;
+SELECT * FROM customers WHERE city = '부산';
+SELECT * FROM products WHERE buyprice BETWEEN 20 AND 50;
